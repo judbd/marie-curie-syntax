@@ -1,7 +1,7 @@
 {
   "name": "marie-curie-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Marie Curie is a colorful dark theme for Atom. The right balance between nice colors like you can find in Monokai-like themes and the physical integrity of your eyes in long coding sessions.",
   "keywords": [
     "syntax",
