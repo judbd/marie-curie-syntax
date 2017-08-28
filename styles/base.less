@@ -1,6 +1,6 @@
 @import "syntax-variables";
 
-atom-text-editor,  {
+atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
@@ -52,13 +52,13 @@ atom-text-editor,  {
   }
 }
 
-atom-text-editor .search-results .syntax--marker .region,
+atom-text-editor .search-results .syntax--marker .region
 {
   background-color: transparent;
   border: 1px solid @syntax-result-marker-color;
 }
 
-atom-text-editor .search-results .syntax--marker.current-result .region,
+atom-text-editor .search-results .syntax--marker.current-result .region
 {
   border: 1px solid @syntax-result-marker-color-selected;
 }
@@ -78,11 +78,11 @@ atom-text-editor .search-results .syntax--marker.current-result .region,
     color: @syntax-text-color;
   }
 
-  &.syntax--other.special-method {
+  &.syntax--other.syntax--special-method {
     color: @blue;
   }
 
-  &.syntax--other.unit {
+  &.syntax--other.syntax--unit {
     color: @orange;
   }
 }
@@ -94,7 +94,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region,
 .syntax--constant {
   color: @orange;
 
-  &.syntax--character.escape {
+  &.syntax--character.syntax--escape {
     color: @cyan;
   }
 
@@ -106,7 +106,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region,
     color: @cyan;
   }
 
-  &.syntax--other.symbol {
+  &.syntax--other.syntax--symbol {
     color: @green;
   }
 }
@@ -135,7 +135,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region,
   &.syntax--regexp {
     color: @cyan;
 
-    .syntax--source.ruby.embedded {
+    .syntax--source.syntax--ruby.syntax--embedded {
       color: @orange;
     }
   }
@@ -177,7 +177,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region,
     }
   }
 
-  &.syntax--section.embedded {
+  &.syntax--section.syntax--embedded {
     color: darken(@red, 10%);
   }
 
@@ -277,7 +277,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region,
     font-style: italic;
   }
 
-  &.syntax--heading .syntax--punctuation.syntax--definition.heading {
+  &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
     color: @blue;
   }
 
@@ -305,7 +305,7 @@ atom-text-editor .search-results .syntax--marker.current-result .region,
   }
 }
 
-atom-text-editor[mini] .scroll-view,
+atom-text-editor[mini] .scroll-view
 {
   padding-left: 1px;
 }

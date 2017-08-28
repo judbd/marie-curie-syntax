@@ -1,3 +1,5 @@
+## 1.1.5 - add missing syntax-- selectors
+* Everything should be good now
 ## 1.1.4 - Attempts to correcting bugs
 * No idea what I'm doing
 ## 1.1.0 - Shadow DOM update
